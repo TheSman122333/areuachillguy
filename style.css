@@ -1,9 +1,10 @@
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Nova+Round&family=Yatra+One&display=swap');
 
 html, body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Yatra One', sans-serif;
     margin: 0;
     padding: 0;
     height: 100%; /* Ensures the body spans the entire viewport height */
@@ -21,7 +22,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #95214a;
+    background-color: #ADD7C2;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
@@ -34,16 +35,16 @@ html, body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(circle, #aa4c4391 0%, rgba(255, 255, 255, 0) 70%);
     transform: rotate(30deg);
     animation: glare 6s linear infinite;
     pointer-events: none;
 }
 
 .navbar .logo {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Nova Round', cursive;
     font-size: 28px;
-    color: #fff;
+    color: #4e524f;
     text-decoration: none;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
@@ -54,14 +55,14 @@ html, body {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s, transform 0.3s;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nova Round', sans-serif;
 }
 
 .navbar .nav-links a:hover {
     transform: scale(1.1);
-    background-color: #ffffff;
-    color: #95214a;
-    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    background-color: #A1A9A4;
+    color: #ADD7C2;
+    transition: transform 0.5s ease, background-color 0.5s ease, color 0.5s ease;
 }
 
 
@@ -70,7 +71,7 @@ html, body {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background: linear-gradient(145deg, #fff, #bd7f79);
+    background: linear-gradient(145deg, #fff, #414141);
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -91,7 +92,7 @@ html, body {
 /* Chat Box */
 .chat-box {
     margin: 20px auto;
-    background: linear-gradient(145deg, #ffe4e1, #cf4474);
+    background: linear-gradient(145deg, #AC4E42, #88BAB0);
     border-radius: 12px;
     padding: 20px;
     width: 100%;
@@ -113,16 +114,16 @@ html, body {
     padding: 10px;
     background: #fff;
     border-radius: 8px;
-    border: 1px solid #a95572;
+    border: 1px solid #88BAB0;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nova Round', sans-serif;
     max-height: 300px; /* Limit the height */
 }
 
 /* Chat Input Area */
 .chat-input {
     display: flex;
-    border: 1px solid #c4406e;
+    border: 1px solid #A1A9A4;
     border-radius: 8px;
     overflow: hidden;
     background: #fff;
@@ -136,16 +137,16 @@ html, body {
     border: none; /* Remove default border */
     outline: none; /* Remove outline for cleaner look */
     font-size: 16px;
-    color: #4d4d4d;
-    border-right: 1px solid #9a3859; /* Divider between input and button */
-    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    border-right: 1px solid ; /* Divider between input and button */
+    font-family: 'Nova Round', sans-serif;
     height: 40px; /* Fixed height for input box */
     resize: none; /* Prevent resizing */
 }
 
 /* Send Button */
 .chat-input button {
-    background: linear-gradient(145deg, #6f2530, #c44d75);
+    background: linear-gradient(145deg, #88BAB0, #AA4C43);
     color: #fff;
     border: none;
     padding: 12px 24px;
@@ -159,8 +160,9 @@ html, body {
 }
 
 .chat-input button:hover {
-    background: linear-gradient(145deg, #bc496f, #ffbfc9);
+    background: linear-gradient(145deg, #AA4C43, #88BAB0);
     transform: scale(1.05);
+    transition: transform 0.5s ease;
 }
 
 /* Chat Box Glare Effect */
@@ -171,7 +173,7 @@ html, body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 80%);
+    background: radial-gradient(circle, #ffffff4d 0%, rgba(255, 255, 255, 0) 80%);
     transform: rotate(30deg);
     animation: glare 6s linear infinite;
     pointer-events: none;
@@ -183,7 +185,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 15px 20px;
-    background-color: #ff82ad;
+    background-color: #AA4C43;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
     position: fixed; /* Ensures the footer stays at the bottom */
     bottom: 0;
@@ -200,14 +202,14 @@ html, body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(circle, #88bab0b2 0%, rgba(255, 255, 255, 0) 70%);
     transform: rotate(30deg);
-    animation: glare 6s linear infinite;
+    animation: glare 6.25s linear infinite;
     pointer-events: none;
 }
 
 .footer .footer-content {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Nova Round', cursive;
     font-size: 18px;
     color: #fff;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
